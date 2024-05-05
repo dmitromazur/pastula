@@ -1,0 +1,62 @@
+.logo-hd {
+    margin-top: 5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+body{
+    margin: 0px;
+    background-color: #FFFAF0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap:20px;
+}
+.item{
+    padding: 20px;
+    border: 3px solid rgb(179, 215, 176);
+}
+
+.item h1{
+    color: #006400;
+}
+
+.item img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(133, 77, 77); 
+}
+
+#select{
+        font-weight: bold;
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        outline: none;
+        transition: border-color 0.3s ease;
+}
+
+#select:focus {
+    border-color: #66afe9;
+}
+
+.highlight{
+    color: yellow;
+}
+
+
+
+.disable{
+    display: none;
+}
+
+.active{
+    display: block;
+}
